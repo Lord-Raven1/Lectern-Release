@@ -61,6 +61,8 @@ If your organisation's IT has turned off "Run anyway", ask them to allow Lectern
 2. **Open Lectern**, pick the window to show, check the projector is selected, and press **Start showing**.
 3. **Present.** Work in that window as normal and use the toolbar that appears on it.
 
+**Keep your app on your own screen.** You extend to the projector so Lectern has a screen to draw on, but you don't put anything there yourself. Lectern mirrors your one window onto it, like PowerPoint's presenter view. If the window ends up on the projector screen, Lectern moves it back to yours.
+
 No projector? Lectern shows the stage in an ordinary window instead. You can share that window in Teams or Zoom to get the same zoom and highlights online.
 
 ## Privacy
