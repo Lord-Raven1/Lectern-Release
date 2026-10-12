@@ -69,7 +69,11 @@ Lectern collects nothing: no accounts, analytics or tracking. The window you pic
 
 ## Feedback
 
-Found a bug or have an idea? [Open an issue](https://github.com/Lord-Raven1/Lectern-Release/issues/new). Please don't include anything private, as issues are public.
+Found a bug or have an idea? Click **Feedback** at the bottom of the Lectern window, or [open an issue](https://github.com/Lord-Raven1/Lectern-Release/issues/new). Please don't include anything private, as issues are public.
+
+## Support
+
+Lectern is free. If it saves your lectures, you can [leave a tip on Ko-fi](https://ko-fi.com/lordraven). Entirely optional, and appreciated.
 
 ---
 
