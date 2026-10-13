@@ -1,0 +1,25 @@
+Lectern licence
+
+Copyright © 2026 Lord-Raven1. All rights reserved.
+
+Lectern is free to use. It is not open source: Lord-Raven1 owns Lectern, including its
+code, design, name and icon.
+
+You may
+  - download, install and use Lectern free of charge, on as many computers as you like,
+    for yourself, your teaching or your organisation;
+  - tell others about it and share the official download page, https://github.com/Lord-Raven1/Lectern-Release/releases/latest, so everyone gets a genuine, up-to-date copy.
+
+You may not
+  - sell, rent or license Lectern, or charge anyone for it or for access to it;
+  - modify, decompile, reverse engineer or disassemble it, except where the law allows
+    this regardless of this licence;
+  - share modified copies, or package it with other software;
+  - remove or change its copyright notices or credits, or present it as your own work.
+
+Lectern is provided "as is", without warranty of any kind. The terms of use and privacy
+statement (TERMS.md) also apply, including the
+limitation of liability.
+
+Lectern is built with open-source components, each under its own licence, which this
+licence does not change: Electron and Chromium (see LICENSE.electron.txt and LICENSES.chromium.html in the app folder) and koffi. Their licence files are included with the app.

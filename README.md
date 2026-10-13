@@ -81,4 +81,4 @@ Lectern is free. If it saves your lectures, you can [leave a tip on Ko-fi](https
 
 ---
 
-<p align="center">Made by <b>Lord-Raven1</b></p>
+<p align="center">© 2026 <b>Lord-Raven1</b>. All rights reserved. Free to use, not open source: see the <a href="LICENSE">licence</a>.</p>

@@ -6,7 +6,7 @@ _Last updated 13 October 2026. Applies to the Lectern app and its updates._
 
 ## Terms of use
 
-**1. Using Lectern.** Lectern is free software made by Lord-Raven1 ("we", "us"). You may install and use it, for free, on as many computers as you like. Please don't sell it, pass it off as your own, or share modified copies. To share it, share the official download link.
+**1. Using Lectern.** Lectern is made and owned by Lord-Raven1 ("we", "us"): © 2026 Lord-Raven1, all rights reserved. It is free to use, but it is not open source. You may install and use it, for free, on as many computers as you like. Please don't sell it, pass it off as your own, modify it or share modified copies. To share it, share the official download link. The full licence is in the LICENSE file that comes with Lectern.
 
 **2. No warranty.** Lectern is provided "as is" and "as available", without any warranty of any kind, express or implied, including any warranty that it is fit for a particular purpose, free of errors, or will work without interruption. Try it before you rely on it in a lecture or presentation.
 

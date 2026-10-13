@@ -254,4 +254,4 @@ Please include what happened, what you were doing just before, your setup (iProj
 
 ---
 
-Lectern collects nothing and sends nothing anywhere. See [terms of use and privacy](TERMS.md). Made by **Lord-Raven1**.
+Lectern collects nothing and sends nothing anywhere. See [terms of use and privacy](TERMS.md) and the [licence](LICENSE). © 2026 **Lord-Raven1**. All rights reserved.
