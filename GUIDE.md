@@ -208,7 +208,7 @@ If another app already uses one of these, the Lectern window says so. The toolba
 
 ## Options
 
-In the Lectern window while showing, open **Options**:
+At the bottom of the Lectern window, open **Options** (it's there whether or not you're showing):
 
 - **Big cursor ring on the projector**: the ring around your mouse.
 - **Show clicks**: the ripple when you click.
