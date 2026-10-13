@@ -2,7 +2,7 @@
 
 Everything Lectern does, and how to use it. For the download, see the [latest release](https://github.com/Lord-Raven1/Lectern-Release/releases/latest).
 
-**Contents:** [Getting it running](#getting-it-running) · [Connecting the projector](#connecting-the-projector) · [Starting](#starting) · [The toolbar](#the-toolbar) · [Zoom](#zoom) · [The cursor ring](#the-cursor-ring) · [Highlight](#highlight) · [Spotlight](#spotlight) · [Notes](#notes) · [Undo and clear](#undo-and-clear) · [Freeze and Back in a moment](#freeze-and-back-in-a-moment) · [Using other apps while showing](#using-other-apps-while-showing) · [Stopping](#stopping) · [Shortcuts](#shortcuts) · [Options](#options) · [Troubleshooting](#troubleshooting) · [Feedback](#feedback)
+**Contents:** [Getting it running](#getting-it-running) · [Connecting the projector](#connecting-the-projector) · [Starting](#starting) · [The toolbar](#the-toolbar) · [Zoom](#zoom) · [The cursor ring](#the-cursor-ring) · [Highlight](#highlight) · [Spotlight](#spotlight) · [Notes](#notes) · [Undo and clear](#undo-and-clear) · [Freeze and Back in a moment](#freeze-and-back-in-a-moment) · [Using other apps while showing](#using-other-apps-while-showing) · [Online lectures (Teams, Zoom)](#online-lectures-teams-zoom) · [Stopping](#stopping) · [Shortcuts](#shortcuts) · [Options](#options) · [Troubleshooting](#troubleshooting) · [Feedback](#feedback)
 
 ---
 
@@ -165,6 +165,23 @@ Your laptop screen stays yours. While you're showing:
 - When you switch to another app, the projector **holds the last picture** of your window, so the room doesn't watch your mouse wander. It goes live again when you come back. You can turn this off under [Options](#options).
 - If you **minimise** the shared window, the projector holds the last picture until you bring it back.
 - If you **close** it, the projector holds the last picture, and the Lectern window tells you. Pick another window to carry on.
+
+---
+
+## Online lectures (Teams, Zoom)
+
+Lectern works for online lectures too, even with just your laptop screen:
+
+1. With no projector connected, start showing as usual. Lectern opens its picture in a normal window called **Lectern stage**.
+2. In Teams or Zoom, share **that window** (not your editor or your whole screen).
+3. Work in your own window as normal. The call sees everything Lectern shows: zoom, highlights, notes and the cursor ring.
+
+The Lectern stage window can sit behind your other windows, and the call still sees it live. Two things to know:
+
+- **Don't minimise** the Lectern stage window. Windows can't share a minimised window, so the call would freeze.
+- While you're clicking around in Teams or Zoom itself, the picture holds still (that's [automatic freeze](#using-other-apps-while-showing)) and goes live again when you're back in your window. If that gets in the way, turn it off under [Options](#options).
+
+With a projector connected, you can also share the projector's screen in the call instead.
 
 ---
 
