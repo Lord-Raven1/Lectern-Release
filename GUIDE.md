@@ -206,7 +206,7 @@ In the Lectern window while showing, open **Options**:
 
 **The wrong screen shows Lectern's picture.** Pick the right one under "Projector" (use **Identify screens** if you have three or more).
 
-**The toolbar isn't showing.** Click on your shared window: the toolbar only shows while that window is in front. If it keeps disappearing, send me the file **toolbar-log.txt** (paste `%AppData%\Lectern` into the File Explorer address bar to find it). It records each time the toolbar hid and why.
+**The toolbar isn't showing.** Click on your shared window: the toolbar only shows while that window is in front. If it keeps disappearing, attach the file **toolbar-log.txt** to your [feedback](#feedback) (paste `%AppData%\Lectern` into the File Explorer address bar to find it). It records each time the toolbar hid and why.
 
 **A shortcut does nothing.** Another app may already use it; the Lectern window lists any it couldn't use. Use the toolbar instead.
 
@@ -214,13 +214,13 @@ In the Lectern window while showing, open **Options**:
 
 **The projector shows a still picture.** Freeze may be on, you may be in another app, or the window may be minimised or closed. The Lectern window says which.
 
-**Something went wrong mid-lecture.** Click **Stop showing** and carry on as normal, then let me know what happened.
+**Something went wrong mid-lecture.** Click **Stop showing** and carry on as normal, then send [feedback](#feedback) about what happened.
 
 ---
 
 ## Feedback
 
-Reply to the email you got this from, or click **Feedback** at the bottom of the Lectern window. It opens a short form on GitHub with your Lectern version and Windows details filled in. It needs a free GitHub account, and posts are public, so leave out anything private.
+Click **Feedback** at the bottom of the Lectern window, or [open an issue](https://github.com/Lord-Raven1/Lectern-Release/issues/new) directly. The Feedback link opens a short form on GitHub with your Lectern version and Windows details filled in. It needs a free GitHub account, and posts are public, so leave out anything private.
 
 Please include what happened, what you were doing just before, your setup (iProjection or cable, any extra monitor) and a screenshot if you can (**Windows + Shift + S**).
 
