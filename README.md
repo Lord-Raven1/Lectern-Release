@@ -5,7 +5,7 @@
 <p align="center"><b>Project one window, not your whole screen.</b><br>
 Zoom, highlight and point things out while you present, from a small toolbar, without leaving your editor.</p>
 
-<p align="center"><a href="https://github.com/Lord-Raven1/Lectern-Release/releases/latest"><b>⬇ Download the latest version</b></a></p>
+<p align="center"><a href="https://github.com/Lord-Raven1/Lectern-Release/releases/latest"><b>⬇ Download the latest version</b></a> · <a href="GUIDE.md"><b>📖 Full user guide</b></a></p>
 
 ---
 
@@ -52,6 +52,8 @@ For the zip: if Windows blocks `Lectern.exe` after unzipping, right-click the do
 If your organisation's IT has turned off "Run anyway", ask them to allow Lectern, or use your own laptop.
 
 ## How to use it
+
+The [full user guide](GUIDE.md) explains every feature in detail. In short:
 
 1. **Connect to the projector as a second screen.**
    - **Epson iProjection:** use its extended display mode.
