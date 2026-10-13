@@ -1,6 +1,6 @@
 # Lectern: terms of use and privacy
 
-_Last updated 12 October 2026. Applies to the Lectern app and its updates._
+_Last updated 13 October 2026. Applies to the Lectern app and its updates._
 
 **The short version:** Lectern is free to use and comes as-is, with no guarantees. It collects nothing: it shows a window from your computer on your projector, and nothing leaves your computer. You decide what you show.
 
@@ -28,6 +28,7 @@ _Last updated 12 October 2026. Applies to the Lectern app and its updates._
 - **Screen capture stays on your computer.** Lectern captures only the window you choose and shows it on your own projector or second screen. Nothing is recorded, saved or sent anywhere.
 - **Settings** (such as which projector you use) are kept only on your computer, in `%AppData%\Lectern`.
 - **Highlights and notes** exist only while you're presenting and are never saved.
+- **Diagnostic log:** to help track down problems, Lectern keeps a log of what happens (buttons and shortcuts used, your screen layout, errors) in `%AppData%\Lectern`. It stays on your computer and is never sent anywhere; you decide whether to attach it to feedback. It records the name of the window you share, but never other apps' window titles or the text of your notes. It's limited to about 2 MB and you can delete it at any time.
 - **Feedback and tips** open GitHub or Ko-fi in your browser; what you send there is handled by that service. Feedback on GitHub is public; if something personal is posted by mistake, we'll remove it when we see it, or ask us to. If you leave a tip, Ko-fi may share your name, email address and message with us; we only use them to say thank you, and never share them or add you to any list.
 
 Questions? Contact Lord-Raven1 through the place you downloaded Lectern from.

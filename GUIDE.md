@@ -2,7 +2,7 @@
 
 Everything Lectern does, and how to use it. For the download, see the [latest release](https://github.com/Lord-Raven1/Lectern-Release/releases/latest).
 
-**Contents:** [Getting it running](#getting-it-running) · [Connecting the projector](#connecting-the-projector) · [Starting](#starting) · [The toolbar](#the-toolbar) · [Zoom](#zoom) · [The cursor ring](#the-cursor-ring) · [Highlight](#highlight) · [Spotlight](#spotlight) · [Notes](#notes) · [Undo and clear](#undo-and-clear) · [Freeze and Back in a moment](#freeze-and-back-in-a-moment) · [Using other apps while showing](#using-other-apps-while-showing) · [Online lectures (Teams, Zoom)](#online-lectures-teams-zoom) · [Stopping](#stopping) · [Shortcuts](#shortcuts) · [Options](#options) · [Troubleshooting](#troubleshooting) · [Feedback](#feedback)
+**Contents:** [Getting it running](#getting-it-running) · [Connecting the projector](#connecting-the-projector) · [Starting](#starting) · [The toolbar](#the-toolbar) · [Zoom](#zoom) · [The cursor ring](#the-cursor-ring) · [Highlight](#highlight) · [Spotlight](#spotlight) · [Notes](#notes) · [Undo and clear](#undo-and-clear) · [Freeze and Back in a moment](#freeze-and-back-in-a-moment) · [Using other apps while showing](#using-other-apps-while-showing) · [Online lectures (Teams, Zoom)](#online-lectures-teams-zoom) · [Stopping](#stopping) · [Shortcuts](#shortcuts) · [Options](#options) · [Troubleshooting](#troubleshooting) · [The log](#the-log) · [Feedback](#feedback)
 
 ---
 
@@ -63,7 +63,7 @@ From left to right:
 | ⋮⋮ (grip) | Drag it to move the toolbar out of the way. It stays in that spot relative to your window. |
 | 🔍 Zoom | Turns on the zoom tool. See [Zoom](#zoom). |
 | − / % / + | Zoom out, the current zoom level, zoom in. |
-| ⛶ Show it all | Back to the whole window. Also ends the zoom tool. |
+| Inward corners (Show it all) | Zooms back out to the whole window. Also ends the zoom tool. |
 | Arrow | Follow the mouse while zoomed in, on or off. |
 | Highlighter | Highlight lines. See [Highlight](#highlight). |
 | Sun | Spotlight. See [Spotlight](#spotlight). |
@@ -214,6 +214,7 @@ In the Lectern window while showing, open **Options**:
 - **Show clicks**: the ripple when you click.
 - **Freeze the picture while you're in another app.**
 - **Clear highlights and notes when the window scrolls or changes.**
+- **Open log folder**: see [The log](#the-log).
 
 ---
 
@@ -223,7 +224,7 @@ In the Lectern window while showing, open **Options**:
 
 **The wrong screen shows Lectern's picture.** Pick the right one under "Projector" (use **Identify screens** if you have three or more).
 
-**The toolbar isn't showing.** Click on your shared window: the toolbar only shows while that window is in front. If it keeps disappearing, attach the file **toolbar-log.txt** to your [feedback](#feedback) (paste `%AppData%\Lectern` into the File Explorer address bar to find it). It records each time the toolbar hid and why.
+**The toolbar isn't showing.** Click on your shared window: the toolbar only shows while that window is in front. If it keeps disappearing, attach [the log](#the-log) to your [feedback](#feedback): it records each time the toolbar hid and why.
 
 **A shortcut does nothing.** Another app may already use it; the Lectern window lists any it couldn't use. Use the toolbar instead.
 
@@ -235,11 +236,21 @@ In the Lectern window while showing, open **Options**:
 
 ---
 
+## The log
+
+Lectern keeps a log of what happens, to help track down problems: which buttons and shortcuts you used, your screens, when the toolbar hid and why, and any errors.
+
+- **Find it:** in the Lectern window, open **Options** and click **Open log folder**. The file is **lectern-log.txt** (older entries move to **lectern-log.old.txt**).
+- **Size:** it never takes more than about 2 MB.
+- **Privacy:** it stays on your computer and is never sent anywhere unless you attach it yourself. It records the name of the window you share, but never other apps' window titles or the text of your notes.
+
+---
+
 ## Feedback
 
 Click **Feedback** at the bottom of the Lectern window, or [open an issue](https://github.com/Lord-Raven1/Lectern-Release/issues/new) directly. The Feedback link opens a short form on GitHub with your Lectern version and Windows details filled in. It needs a free GitHub account, and posts are public, so leave out anything private.
 
-Please include what happened, what you were doing just before, your setup (iProjection or cable, any extra monitor) and a screenshot if you can (**Windows + Shift + S**).
+Please include what happened, what you were doing just before, your setup (iProjection or cable, any extra monitor), a screenshot if you can (**Windows + Shift + S**), and [the log](#the-log). The log is the most useful part: it shows exactly what Lectern did.
 
 ---
 
