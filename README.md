@@ -22,7 +22,7 @@ Lectern is for anyone who presents from a laptop, especially code. It was made f
 - **One window on the projector.** VS Code, a browser, a document or slides. Your laptop screen stays yours: check something in another app and the projector holds the last picture until you come back.
 - **A floating toolbar** on your window (on your laptop only, never on the projector) with a button for everything.
 - **Zoom:** click a spot, drag a box, or scroll. A box locks the view on that area; otherwise it gently follows your mouse.
-- **Highlight lines:** a band previews under your mouse so you see the line before you click. Click line after line, or drag over a block.
+- **Highlight:** drag a box around exactly what you mean, or click to mark a whole line (a band previews it under your mouse).
 - **Spotlight:** dim everything except what matters.
 - **Notes:** short labels pointing at code. Drag them to move them.
 - **Back in a moment and Freeze:** hide the screen, or hold the picture while you look something up.

@@ -40,7 +40,9 @@ Lectern needs Windows to treat the projector as a **second screen in extend mode
 
 Open Lectern. Its window has two steps:
 
-**1. What to show.** Click the window you want the room to see: VS Code, a browser, PowerPoint, a PDF, anything. Minimised windows are listed too (marked "Minimised: opens when you start") and come back up when you start. **Refresh** looks for windows again if you've just opened one. You can also pick a **whole screen**, though one window is more private.
+**1. What to show.** Click the window you want the room to see: VS Code, a browser, PowerPoint, a PDF, anything. Minimised windows are listed too (marked "Minimised: opens when you start") and come back up when you start. **Refresh** looks for windows again if you've just opened one. The list fills the Lectern window, so make it bigger to see more at once; long names wrap so you can read them, and the **Start** button names exactly what you picked.
+
+**Whole screens** are kept apart, in a folded **Whole screens** section under the windows, with an orange "Whole screen" label on each. Avoid them unless you really need one: a whole screen shows everything on it, including any private app you open or drag onto it.
 
 **2. Projector.** Check the right screen is selected.
 
@@ -65,7 +67,7 @@ From left to right:
 | − / % / + | Zoom out, the current zoom level, zoom in. |
 | Inward corners (Show it all) | Zooms back out to the whole window. Also ends the zoom tool. |
 | Arrow | Follow the mouse while zoomed in, on or off. |
-| Highlighter | Highlight lines. See [Highlight](#highlight). |
+| Highlighter | Highlight an area or a line. See [Highlight](#highlight). |
 | Sun | Spotlight. See [Spotlight](#spotlight). |
 | Speech bubble | Notes. See [Notes](#notes). |
 | ↶ | Undo the last highlight, spotlight or note. |
@@ -112,14 +114,14 @@ Your normal mouse pointer is tiny on a projector, so Lectern draws a **big ring*
 
 ## Highlight
 
-Turn on the highlight tool (toolbar highlighter, or **Ctrl + Alt + H**). A yellow **band follows your mouse**, so you can see which line you'll highlight before you click.
+Turn on the highlight tool (toolbar highlighter, or **Ctrl + Alt + H**). The tool stays on, so you can highlight as many things as you like.
 
-- **Click** a line to highlight it. The tool stays on, so click as many lines as you like.
-- **Drag** over several lines to highlight them as one block.
+- **Drag a box** around exactly what you want highlighted: a word, part of a line, a cell, a diagram. It works just like the spotlight, but highlights instead of dimming the rest.
+- **Click** to highlight a whole line. A yellow **band follows your mouse**, so you can see which line you'll get before you click.
 - **Scroll the wheel** to make the band taller or shorter, to match your editor's line height. Lectern remembers it.
 - **Drag an existing highlight** up or down to stretch it a line at a time.
 - **Click an existing highlight** to remove it.
-- Highlights that overlap or touch **merge** into one block.
+- Whole-line highlights that overlap or touch **merge** into one block, and so does a box drawn inside another. Boxes that only partly overlap stay separate.
 
 Press **Esc** when you're done.
 
