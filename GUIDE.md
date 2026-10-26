@@ -2,7 +2,7 @@
 
 Everything Lectern does, and how to use it. For the download, see the [latest release](https://github.com/Lord-Raven1/Lectern-Release/releases/latest).
 
-**Contents:** [Getting it running](#getting-it-running) · [Connecting the projector](#connecting-the-projector) · [Starting](#starting) · [The toolbar](#the-toolbar) · [Zoom](#zoom) · [The cursor ring](#the-cursor-ring) · [Highlight](#highlight) · [Spotlight](#spotlight) · [Notes](#notes) · [Undo and clear](#undo-and-clear) · [Freeze and Back in a moment](#freeze-and-back-in-a-moment) · [Using other apps while showing](#using-other-apps-while-showing) · [Online lectures (Teams, Zoom)](#online-lectures-teams-zoom) · [Stopping](#stopping) · [Shortcuts](#shortcuts) · [Options](#options) · [Troubleshooting](#troubleshooting) · [The log](#the-log) · [Feedback](#feedback)
+**Contents:** [Getting it running](#getting-it-running) · [Connecting the projector](#connecting-the-projector) · [Starting](#starting) · [The toolbar](#the-toolbar) · [Zoom](#zoom) · [The cursor ring](#the-cursor-ring) · [Highlight](#highlight) · [Spotlight](#spotlight) · [Notes](#notes) · [Undo and clear](#undo-and-clear) · [Freeze and Back in a moment](#freeze-and-back-in-a-moment) · [Using other apps while showing](#using-other-apps-while-showing) · [Online lectures (Teams, Zoom)](#online-lectures-teams-zoom) · [Stopping](#stopping) · [Shortcuts](#shortcuts) · [Options](#options) · [Updates](#updates) · [Troubleshooting](#troubleshooting) · [The log](#the-log) · [Feedback](#feedback)
 
 ---
 
@@ -40,17 +40,19 @@ Lectern needs Windows to treat the projector as a **second screen in extend mode
 
 Open Lectern. Its window has two steps:
 
-**1. What to show.** Click the window you want the room to see: VS Code, a browser, PowerPoint, a PDF, anything. Minimised windows are listed too (marked "Minimised: opens when you start") and come back up when you start. **Refresh** looks for windows again if you've just opened one. The list fills the Lectern window, so make it bigger to see more at once; long names wrap so you can read them, and the **Start** button names exactly what you picked.
+**01 What should the room see?** Click the window you want the room to see: VS Code, a browser, PowerPoint, a PDF, anything. Each one shows a small picture, its name in full and its app icon. Type in **Find a window** to narrow a long list. Minimised windows are listed too (marked "Minimised · opens when you start") and come back up when you start. **Refresh** looks for windows again if you've just opened one. The list fills the Lectern window, so make it bigger to see more at once.
 
-**Whole screens** are kept apart, in a folded **Whole screens** section under the windows, with an orange "Whole screen" label on each. Avoid them unless you really need one: a whole screen shows everything on it, including any private app you open or drag onto it.
+**Whole screens** have their own tab, **Whole screens**, marked with a warning sign, and are shown in orange. Avoid them unless you really need one: a whole screen shows everything on it, including any private app you open or drag onto it.
 
-**2. Projector.** Check the right screen is selected.
+**02 Which screen is the projector?** Lectern draws a little map of your screens, laid out the way Windows sees them. The projector is marked in yellow; click another screen to change it. Your laptop's own screen is drawn dashed ("your screen"), because it's never the projector.
 
 - With **two screens** (laptop + projector), Lectern picks the projector for you.
-- With **three or more** (for example laptop + monitor + projector), Lectern asks which one is the projector. Click **Identify screens** to show a big number on each screen for a few seconds, then pick the matching one. Lectern remembers your choice.
+- With **three or more** (for example laptop + monitor + projector), Lectern asks which one is the projector. Click **Identify screens** to show a big number on each screen for a few seconds, then click the matching one on the map. Lectern remembers your choice.
 - With **no projector** connected, Lectern shows its picture in an ordinary window instead. This is handy for trying it out, or for sharing that window in Teams or Zoom.
 
-Click **Start showing**. Your window comes to the front, the projector shows it, and the toolbar appears on it.
+The big yellow button names exactly what it will show, for example **Show lecture-03.py** (orange for a whole screen). Click it: your window comes to the front, the projector shows it, and the toolbar appears on it.
+
+**While you're showing**, the Lectern window shows a live picture of **what the room sees**, a clock, a zoom slider, big buttons for every tool, and the privacy switches (Freeze and Back in a moment).
 
 ---
 
@@ -62,25 +64,25 @@ From left to right:
 
 | Button | What it does |
 |---|---|
-| ⋮⋮ (grip) | Drag it to move the toolbar out of the way. It stays in that spot relative to your window. |
+| ⋮⋮ ● LIVE (grip) | Drag it to move the toolbar out of the way. It stays in that spot relative to your window. The green dot means you're live. |
 | 🔍 Zoom | Turns on the zoom tool. See [Zoom](#zoom). |
 | − / % / + | Zoom out, the current zoom level, zoom in. |
 | Inward corners (Show it all) | Zooms back out to the whole window. Also ends the zoom tool. |
 | Arrow | Follow the mouse while zoomed in, on or off. |
 | Highlighter | Highlight an area or a line. See [Highlight](#highlight). |
-| Sun | Spotlight. See [Spotlight](#spotlight). |
+| Square with a circle | Spotlight. See [Spotlight](#spotlight). |
 | Speech bubble | Notes. See [Notes](#notes). |
 | ↶ | Undo the last highlight, spotlight or note. |
 | Bin | Clear all highlights, spotlights and notes. |
-| ⏸ | Freeze the picture. |
-| Cup | Show "Back in a moment". |
+| Two bars (pause) | Freeze the picture. |
+| Clock | Show "Back in a moment". |
 | Red square | Stop showing. |
 
 After you click a toolbar button, the keyboard goes straight back to your window, so you can carry on typing.
 
 The **Lectern window** has the same controls as large buttons, if you prefer them. The toolbar only shows while your shared window is in front; it hides while you're in another app.
 
-**When a tool is on**, your window gets a faint tint and a yellow frame, with a hint at the top saying what to do. That means your next click goes to Lectern, not to your app. Press **Esc**, or click the tool's button again, to finish.
+**When a tool is on**, its button turns yellow and shows its name (for example **Highlight**), and a **Done (Esc)** button appears beside it. Your window gets a faint tint and a yellow frame, with a hint at the top saying what to do. That means your next click goes to Lectern, not to your app. Press **Esc**, click **Done**, or click the tool's button again, to finish.
 
 ---
 
@@ -118,7 +120,7 @@ Turn on the highlight tool (toolbar highlighter, or **Ctrl + Alt + H**). The too
 
 - **Drag a box** around exactly what you want highlighted: a word, part of a line, a cell, a diagram. It works just like the spotlight, but highlights instead of dimming the rest.
 - **Click** to highlight a whole line. A yellow **band follows your mouse**, so you can see which line you'll get before you click.
-- **Scroll the wheel** to make the band taller or shorter, to match your editor's line height. Lectern remembers it.
+- **Hold Ctrl and scroll the wheel** to make the band taller or shorter, to match your editor's line height. Lectern remembers it.
 - **Drag an existing highlight** up or down to stretch it a line at a time.
 - **Click an existing highlight** to remove it.
 - Whole-line highlights that overlap or touch **merge** into one block, and so does a box drawn inside another. Boxes that only partly overlap stay separate.
@@ -155,7 +157,7 @@ Highlights and notes are drawn on the projector (and shown on your screen for re
 ## Freeze and Back in a moment
 
 - **Freeze** (⏸) holds the current picture on the projector while you do something else in the window, such as looking something up. Click it again to go live.
-- **Back in a moment** (cup) covers the projector with a "Back in a moment" card. Click it again to return.
+- **Back in a moment** (clock) covers the projector with a big yellow "Back in a moment" card. Click it again to return.
 
 ---
 
@@ -210,13 +212,25 @@ If another app already uses one of these, the Lectern window says so. The toolba
 
 ## Options
 
-At the bottom of the Lectern window, open **Options** (it's there whether or not you're showing):
+Click the **sliders button** at the top right of the Lectern window (it's there whether or not you're showing). The arrow at the top left, or **Esc**, takes you back.
 
-- **Big cursor ring on the projector**: the ring around your mouse.
+- **Big cursor ring**: the ring around your mouse on the projector.
 - **Show clicks**: the ripple when you click.
-- **Freeze the picture while you're in another app.**
-- **Clear highlights and notes when the window scrolls or changes.**
+- **Freeze while I'm in another app**: see [Using other apps while showing](#using-other-apps-while-showing).
+- **Clear marks when the page moves**: highlights and notes go when you scroll or switch files.
+- **Highlight line height**: how tall a one-line highlight is. Use − and + until the yellow line in the sample matches one line of your editor, or **Reset** for the default. (Holding **Ctrl** and scrolling while highlighting does the same.)
+- **Shortcuts**: a reminder of the keyboard shortcuts.
+- **Updates**: see [Updates](#updates).
 - **Open log folder**: see [The log](#the-log).
+
+---
+
+## Updates
+
+Lectern checks GitHub for a new version when it starts, every few hours, and when you click **Check for updates** in [Options](#options). A yellow dot on the sliders button means one is waiting.
+
+- **Installed version (Setup):** downloads the update in the background. Click **Restart and update** in Options, or just close Lectern: it installs next time.
+- **Portable and zip:** these can't replace themselves, so Options says a new version is out, and **Download** opens the download page.
 
 ---
 
@@ -242,7 +256,7 @@ At the bottom of the Lectern window, open **Options** (it's there whether or not
 
 Lectern keeps a log of what happens, to help track down problems: which buttons and shortcuts you used, your screens, when the toolbar hid and why, and any errors.
 
-- **Find it:** in the Lectern window, open **Options** and click **Open log folder**. The file is **lectern-log.txt** (older entries move to **lectern-log.old.txt**).
+- **Find it:** in the Lectern window, open **Options** (the sliders button at the top right) and click **Open log folder**. The file is **lectern-log.txt** (older entries move to **lectern-log.old.txt**).
 - **Size:** it never takes more than about 2 MB.
 - **Privacy:** it stays on your computer and is never sent anywhere unless you attach it yourself. It records the name of the window you share, but never other apps' window titles or the text of your notes.
 
@@ -256,4 +270,4 @@ Please include what happened, what you were doing just before, your setup (iProj
 
 ---
 
-Lectern collects nothing and sends nothing anywhere. See [terms of use and privacy](TERMS.md) and the [licence](LICENSE). © 2026 **Lord-Raven1**. All rights reserved.
+Lectern collects nothing and sends nothing anywhere; the only thing it asks the internet is whether there's a new version. See [terms of use and privacy](TERMS.md) and the [licence](LICENSE). © 2026 **Lord-Raven1**. All rights reserved.

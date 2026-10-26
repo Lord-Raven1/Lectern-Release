@@ -69,7 +69,7 @@ No projector? Lectern shows the stage in an ordinary window instead. You can sha
 
 ## Privacy
 
-Lectern collects nothing: no accounts, analytics or tracking. The window you pick goes only to your own projector, and nothing is recorded or sent anywhere. Read the [terms of use and privacy](TERMS.md), which are also in the app.
+Lectern collects nothing: no accounts, analytics or tracking. The window you pick goes only to your own projector, and nothing is recorded or sent anywhere. The one thing it asks the internet is whether there's a new version (the installed version then updates itself). Read the [terms of use and privacy](TERMS.md), which are also in the app.
 
 ## Feedback
 

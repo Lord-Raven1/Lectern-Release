@@ -1,8 +1,8 @@
 # Lectern: terms of use and privacy
 
-_Last updated 13 October 2026. Applies to the Lectern app and its updates._
+_Last updated 26 October 2026. Applies to the Lectern app and its updates._
 
-**The short version:** Lectern is free to use and comes as-is, with no guarantees. It collects nothing: it shows a window from your computer on your projector, and nothing leaves your computer. You decide what you show.
+**The short version:** Lectern is free to use and comes as-is, with no guarantees. It collects nothing: it shows a window from your computer on your projector, and nothing you show leaves your computer. The only thing it asks the internet is whether there's a new version. You decide what you show.
 
 ## Terms of use
 
@@ -26,6 +26,7 @@ _Last updated 13 October 2026. Applies to the Lectern app and its updates._
 
 - **Lectern collects nothing.** No accounts, analytics, advertising or tracking.
 - **Screen capture stays on your computer.** Lectern captures only the window you choose and shows it on your own projector or second screen. Nothing is recorded, saved or sent anywhere.
+- **Update checks:** when it starts, every few hours, and when you click **Check for updates**, Lectern asks GitHub (where Lectern is published) whether there's a newer version. GitHub sees an ordinary request from your computer, as when you visit a web page; Lectern sends nothing about you or what you show. The installed version then downloads the update from GitHub; the portable and zip versions only tell you it's there.
 - **Settings** (such as which projector you use) are kept only on your computer, in `%AppData%\Lectern`.
 - **Highlights and notes** exist only while you're presenting and are never saved.
 - **Diagnostic log:** to help track down problems, Lectern keeps a log of what happens (buttons and shortcuts used, your screen layout, errors) in `%AppData%\Lectern`. It stays on your computer and is never sent anywhere; you decide whether to attach it to feedback. It records the name of the window you share, but never other apps' window titles or the text of your notes. It's limited to about 2 MB and you can delete it at any time.
