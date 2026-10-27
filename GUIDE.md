@@ -157,7 +157,7 @@ Highlights and notes are drawn on the projector (and shown on your screen for re
 ## Freeze and Back in a moment
 
 - **Freeze** (⏸) holds the current picture on the projector while you do something else in the window, such as looking something up. Click it again to go live.
-- **Back in a moment** (clock) covers the projector with a big yellow "Back in a moment" card. To add your own line to it, such as "Short break, back at 10:15", type it in **Options → Back in a moment card** (there's a preview of the card), or under the Back in a moment switch while you're showing. It appears in the bottom-left corner, and Lectern remembers it for next time; clear the box to leave the corner empty. Click it again to return.
+- **Back in a moment** (clock) covers the projector with a big yellow "Back in a moment" card. To add your own line to it, such as "Short break, back at 10:15", type it in the box that appears **next to the clock button on the toolbar** while the card is up, then press **Enter**. You can also set it any time in **Options → Back in a moment card** (with a preview of the card), or under the Back in a moment switch in the Lectern window. It appears in the bottom-left corner, and Lectern remembers it for next time; clear the box to leave the corner empty. Click it again to return.
 
 ---
 
