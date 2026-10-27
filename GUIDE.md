@@ -1,6 +1,6 @@
 # Lectern user guide
 
-Everything Lectern does, and how to use it. For the download, see the [latest release](https://github.com/Lord-Raven1/Lectern-Release/releases/latest).
+Everything Lectern does, and how to use it. **Inside Lectern, the ? button at the top opens a shorter, visual version of this guide.** For the download, see the [latest release](https://github.com/Lord-Raven1/Lectern-Release/releases/latest).
 
 **Contents:** [Getting it running](#getting-it-running) · [Connecting the projector](#connecting-the-projector) · [Starting](#starting) · [The toolbar](#the-toolbar) · [Zoom](#zoom) · [The cursor ring](#the-cursor-ring) · [Highlight](#highlight) · [Spotlight](#spotlight) · [Notes](#notes) · [Undo and clear](#undo-and-clear) · [Freeze and Back in a moment](#freeze-and-back-in-a-moment) · [Using other apps while showing](#using-other-apps-while-showing) · [Online lectures (Teams, Zoom)](#online-lectures-teams-zoom) · [Stopping](#stopping) · [Shortcuts](#shortcuts) · [Options](#options) · [Updates](#updates) · [Troubleshooting](#troubleshooting) · [The log](#the-log) · [Feedback](#feedback)
 
@@ -44,7 +44,7 @@ Open Lectern. Its window has two steps:
 
 **Whole screens** have their own tab, **Whole screens**, marked with a warning sign, and are shown in orange. Avoid them unless you really need one: a whole screen shows everything on it, including any private app you open or drag onto it.
 
-**02 Which screen is the projector?** Lectern draws a little map of your screens, laid out the way Windows sees them. The projector is marked in yellow; click another screen to change it. Your laptop's own screen is drawn dashed ("your screen"), because it's never the projector.
+**02 Which screen is the projector?** Lectern draws a little map of your screens, laid out the way Windows sees them. The projector is marked in yellow; click another screen to change it. Your laptop's own screen ("This laptop") is drawn dashed when you can't pick it, because it's never the projector.
 
 - With **two screens** (laptop + projector), Lectern picks the projector for you.
 - With **three or more** (for example laptop + monitor + projector), Lectern asks which one is the projector. Click **Identify screens** to show a big number on each screen for a few seconds, then click the matching one on the map. Lectern remembers your choice.
@@ -157,7 +157,7 @@ Highlights and notes are drawn on the projector (and shown on your screen for re
 ## Freeze and Back in a moment
 
 - **Freeze** (⏸) holds the current picture on the projector while you do something else in the window, such as looking something up. Click it again to go live.
-- **Back in a moment** (clock) covers the projector with a big yellow "Back in a moment" card. To add your own line to it, such as "Short break, back at 10:15", type it in **Message on the card**, under the Back in a moment switch in the Lectern window. It appears in the bottom-left corner, and Lectern remembers it for next time; clear the box to leave the corner empty. Click it again to return.
+- **Back in a moment** (clock) covers the projector with a big yellow "Back in a moment" card. To add your own line to it, such as "Short break, back at 10:15", type it in **Options → Back in a moment card** (there's a preview of the card), or under the Back in a moment switch while you're showing. It appears in the bottom-left corner, and Lectern remembers it for next time; clear the box to leave the corner empty. Click it again to return.
 
 ---
 
@@ -218,6 +218,7 @@ Click the **sliders button** at the top right of the Lectern window (it's there 
 - **Show clicks**: the ripple when you click.
 - **Freeze while I'm in another app**: see [Using other apps while showing](#using-other-apps-while-showing).
 - **Clear marks when the page moves**: highlights and notes go when you scroll or switch files.
+- **Back in a moment card**: your own message for the card's corner, with a preview.
 - **Highlight line height**: how tall a one-line highlight is. Use − and + until the yellow line in the sample matches one line of your editor, or **Reset** for the default. (Holding **Ctrl** and scrolling while highlighting does the same.)
 - **Shortcuts**: a reminder of the keyboard shortcuts.
 - **Updates**: see [Updates](#updates).
