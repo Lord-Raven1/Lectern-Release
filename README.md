@@ -9,7 +9,7 @@ Zoom, highlight and point things out while you present, from a small toolbar, wi
 
 ---
 
-Lectern is for anyone who presents from a laptop, especially code. It was made for lecture halls that project with Epson iProjection, but it works with any projector or projection software that gives Windows a second screen.
+Lectern is for anyone who presents from a laptop, especially code. It works with any projector, by cable or wirelessly, as long as Windows sees it as a second screen.
 
 ## Why
 
@@ -27,7 +27,7 @@ Lectern is for anyone who presents from a laptop, especially code. It was made f
 - **Notes:** short labels pointing at code. Drag them to move them.
 - **Back in a moment and Freeze:** hide the screen, or hold the picture while you look something up.
 - **Room view:** when zoomed, a dashed outline on your laptop shows exactly what the room sees.
-- **Shortcuts for the essentials:** `Ctrl Alt A` zoom, `Ctrl Alt H` highlight, `Ctrl Alt F` follow the mouse, `Esc` to finish.
+- **Shortcuts for the essentials:** `Ctrl Alt A` zoom, `Ctrl Alt H` highlight, `Ctrl Alt F` follow the mouse, `Esc` to turn the tool off.
 
 Highlights and notes are drawn on the projector only. Lectern never changes your files.
 
@@ -56,8 +56,8 @@ If your organisation's IT has turned off "Run anyway", ask them to allow Lectern
 The [full user guide](GUIDE.md) explains every feature in detail. In short:
 
 1. **Connect to the projector as a second screen.**
-   - **Epson iProjection:** use its extended display mode.
-   - **Other ways:** an HDMI or VGA cable, Miracast (`Win K`) or another projector app all work the same way.
+   - **Cable (HDMI, VGA, USB-C):** press `Win P` and choose **Extend**.
+   - **Wireless:** Miracast (`Win K`), or the projector's own app in its extended or second-screen mode.
 
    Use extend, not duplicate (mirror) mode. In mirror mode the room sees your laptop screen.
 2. **Open Lectern**, pick the window to show, check the projector is selected, and press **Start showing**.

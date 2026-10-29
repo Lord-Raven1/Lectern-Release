@@ -26,9 +26,11 @@ There are three downloads. They're all the same app, and none of them needs admi
 
 Lectern needs Windows to treat the projector as a **second screen in extend mode**:
 
-- **Epson iProjection:** connect in its **extended display** mode.
-- **HDMI or VGA cable:** press **Windows + P** and choose **Extend**.
+Any projector works, by cable or wirelessly:
+
+- **Cable (HDMI, VGA, USB-C):** press **Windows + P** and choose **Extend**.
 - **Wireless (Miracast):** press **Windows + K**, connect, then choose **Extend**.
+- **The projector's own app:** many projectors come with a wireless presenting app; choose its **extended** or **second screen** mode.
 
 **Don't use Duplicate (mirror) mode.** In mirror mode the room sees your whole laptop screen, and Lectern has no screen of its own to show your window on.
 
@@ -193,6 +195,8 @@ With a projector connected, you can also share the projector's screen in the cal
 
 Click the **red square** on the toolbar, or **Stop showing** in the Lectern window. The projector screen goes back to normal Windows use.
 
+**Forgot to stop?** If you unplug the projector (or the wireless connection drops) or close the laptop's lid while showing, Lectern stops by itself, and the Lectern window says why when you next look. Just start again when you're ready.
+
 ---
 
 ## Shortcuts
@@ -204,7 +208,7 @@ Everything is on the toolbar. Three shortcuts cover what you reach for most, and
 | **Ctrl + Alt + A** | Zoom tool on/off |
 | **Ctrl + Alt + H** | Highlight tool on/off |
 | **Ctrl + Alt + F** | Follow the mouse on/off |
-| **Esc** | Finish or cancel the current tool |
+| **Esc** | Turn the tool off |
 
 If another app already uses one of these, the Lectern window says so. The toolbar works either way.
 
@@ -223,6 +227,7 @@ Click the **sliders button** at the top right of the Lectern window (it's there 
 - **Shortcuts**: a reminder of the keyboard shortcuts.
 - **Updates**: see [Updates](#updates).
 - **Open log folder**: see [The log](#the-log).
+- **What's new**: a short list of what changed in this version. It also shows once by itself after each update.
 
 ---
 
@@ -267,7 +272,7 @@ Lectern keeps a log of what happens, to help track down problems: which buttons 
 
 Click **Feedback** at the bottom of the Lectern window, or [open an issue](https://github.com/Lord-Raven1/Lectern-Release/issues/new) directly. The Feedback link opens a short form on GitHub with your Lectern version and Windows details filled in. It needs a free GitHub account, and posts are public, so leave out anything private.
 
-Please include what happened, what you were doing just before, your setup (iProjection or cable, any extra monitor), a screenshot if you can (**Windows + Shift + S**), and [the log](#the-log). The log is the most useful part: it shows exactly what Lectern did.
+Please include what happened, what you were doing just before, your setup (cable or wireless, any extra monitor), a screenshot if you can (**Windows + Shift + S**), and [the log](#the-log). The log is the most useful part: it shows exactly what Lectern did.
 
 ---
 
