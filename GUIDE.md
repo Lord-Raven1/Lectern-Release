@@ -222,6 +222,7 @@ Click the **sliders button** at the top right of the Lectern window (it's there 
 - **Show clicks**: the ripple when you click.
 - **Freeze while I'm in another app**: see [Using other apps while showing](#using-other-apps-while-showing).
 - **Clear marks when the page moves**: highlights and notes go when you scroll or switch files.
+- **Opening animation**: the short logo intro when Lectern starts (click to skip it, or switch it off here).
 - **Back in a moment card**: the card's colour (eight swatches, or **Custom** for any colour; the text turns dark or white to stay readable) and your own message for its corner, with a preview.
 - **Highlight line height**: how tall a one-line highlight is. Use − and + until the yellow line in the sample matches one line of your editor, or **Reset** for the default. (Holding **Ctrl** and scrolling while highlighting does the same.)
 - **Shortcuts**: a reminder of the keyboard shortcuts.
