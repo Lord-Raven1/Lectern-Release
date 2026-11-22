@@ -25,6 +25,7 @@ Lectern is for anyone who presents from a laptop, especially code. It works with
 - **Highlight:** drag a box around exactly what you mean, or click to mark a whole line (a band previews it under your mouse).
 - **Spotlight:** dim everything except what matters.
 - **Notes:** short labels pointing at code. Drag them to move them.
+- **PowerPoint, through Lectern:** pick a deck and press Present. Your notes, the next slide and a timer on your laptop; the real slide show on the projector, animations and all, with every Lectern tool on top.
 - **Back in a moment and Freeze:** hide the screen, or hold the picture while you look something up.
 - **Room view:** when zoomed, a dashed outline on your laptop shows exactly what the room sees.
 - **Shortcuts for the essentials:** `Ctrl Alt A` zoom, `Ctrl Alt H` highlight, `Ctrl Alt F` follow the mouse, `Esc` to turn the tool off.

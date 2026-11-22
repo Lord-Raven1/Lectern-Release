@@ -2,7 +2,7 @@
 
 Everything Lectern does, and how to use it. **Inside Lectern, the ? button at the top opens a shorter, visual version of this guide.** For the download, see the [latest release](https://github.com/Lord-Raven1/Lectern-Release/releases/latest).
 
-**Contents:** [Getting it running](#getting-it-running) · [Connecting the projector](#connecting-the-projector) · [Starting](#starting) · [The toolbar](#the-toolbar) · [Zoom](#zoom) · [The cursor ring](#the-cursor-ring) · [Highlight](#highlight) · [Spotlight](#spotlight) · [Notes](#notes) · [Undo and clear](#undo-and-clear) · [Freeze and Back in a moment](#freeze-and-back-in-a-moment) · [Using other apps while showing](#using-other-apps-while-showing) · [Online lectures (Teams, Zoom)](#online-lectures-teams-zoom) · [Stopping](#stopping) · [Shortcuts](#shortcuts) · [Options](#options) · [Updates](#updates) · [Troubleshooting](#troubleshooting) · [The log](#the-log) · [Feedback](#feedback)
+**Contents:** [Getting it running](#getting-it-running) · [Connecting the projector](#connecting-the-projector) · [Starting](#starting) · [The toolbar](#the-toolbar) · [Zoom](#zoom) · [The cursor ring](#the-cursor-ring) · [Highlight](#highlight) · [Spotlight](#spotlight) · [Notes](#notes) · [Undo and clear](#undo-and-clear) · [Freeze and Back in a moment](#freeze-and-back-in-a-moment) · [Presenting PowerPoint](#presenting-powerpoint) · [Using other apps while showing](#using-other-apps-while-showing) · [Online lectures (Teams, Zoom)](#online-lectures-teams-zoom) · [Stopping](#stopping) · [Shortcuts](#shortcuts) · [Options](#options) · [Updates](#updates) · [Troubleshooting](#troubleshooting) · [The log](#the-log) · [Feedback](#feedback)
 
 ---
 
@@ -163,6 +163,36 @@ Highlights and notes are drawn on the projector (and shown on your screen for re
 
 ---
 
+## Presenting PowerPoint
+
+Pick a PowerPoint deck and Lectern runs the slide show for you, with its own **presenter view** on your laptop. The room gets the real slide show: animations, transitions and videos all play as usual.
+
+1. **Open the deck in PowerPoint**, as usual. You don't need to start the slide show yourself.
+2. **In Lectern, click the deck's PowerPoint window.** Lectern asks "PowerPoint deck: how to present it?". Keep **Slides mode**.
+3. **Press Present.** The show starts on the projector, and the presenter view opens on your laptop.
+
+The presenter view shows:
+
+- **The slide on the projector right now.** Draw on it with every Lectern tool: highlight, spotlight, notes and zoom. Marks clear when you move to another slide.
+- **The next slide**, and how many clicks are left on this one (for animations).
+- **Your speaker notes**, with **A−** and **A+** to change their size.
+- **A timer**, with pause and reset.
+- **Back** and **Next**, **Black screen**, **Back in a moment** and **End show**.
+
+| Keys | Does |
+|---|---|
+| **→**, **Space**, **Page Down** | Next: the next animation, then the next slide. Clickers send these, so they work too. |
+| **←**, **Page Up** | Back |
+| **Home** / **End** | First / last slide |
+| **B** | Black screen on the projector, and back |
+| **Esc** twice | End the show (twice, so one stray press can't) |
+
+**Your deck is never changed.** Lectern borrows PowerPoint's slide show while you present and puts every setting back when the show ends, even if you close Lectern mid-show.
+
+**It needs desktop PowerPoint on Windows.** If Lectern can't run the show, it says why in the Lectern window: usually PowerPoint isn't open, the deck is in **Protected View** (click **Enable Editing** in PowerPoint), or the laptop doesn't let programs control PowerPoint. Then choose **Just share the window**, start the slide show in PowerPoint, and pick its window. That's how Lectern worked before slides mode, and it still does.
+
+---
+
 ## Using other apps while showing
 
 Your laptop screen stays yours. While you're showing:
@@ -242,6 +272,8 @@ Lectern checks GitHub for a new version when it starts, every few hours, and whe
 ---
 
 ## Troubleshooting
+
+**Lectern couldn't run my slide show.** See [Presenting PowerPoint](#presenting-powerpoint): the Lectern window says why, and **Just share the window** always works.
 
 **The projector isn't listed.** Make sure it's in **extend** mode, not duplicate, then click **Refresh** in Lectern.
 
